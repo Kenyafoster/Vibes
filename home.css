@@ -1,3 +1,39 @@
 body {
-    background-color: aqua;
+    background-color: #FFF6EA;
+}
+
+nav {
+    background-color:bisque;
+    display: flex;
+    justify-content: flex-end;
+    gap: 20px;
+    padding: 15px 0;
+    font-size: large;
+}
+
+
+a:link {
+    color: orangered
+}
+
+a:visited {
+    color: brown
+}
+
+@media only screen and (max-width: 600px) {
+    nav {
+        justify-content: space-around;
+        position:relative;
+    }
+}
+
+.fact {
+    background-color: bisque;
+    text-align: center;
+}
+
+p {
+    color: brown; 
+    text-decoration: underline;
+    font-size:xx-large;
 }
