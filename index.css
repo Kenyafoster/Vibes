@@ -1,3 +1,42 @@
 body {
-    background-color: aqua;
+    background-color: #FFF6EA;
 }
+
+/*---
+ * first button
+ --- */
+.container {
+    text-align: center;
+    margin-top: 350px;
+}
+.button {
+    color: orangered;
+    text-align: center;
+    text-decoration: none;
+}
+ .button:hover {
+    color: #a52a2a;
+ }
+
+ /*---
+ * Affirmation photo
+ --- */
+
+ .affirmation {
+    opacity: 0;
+    margin-top: 250px -1px;
+   display:flex;
+   justify-content: center;
+ }
+
+ /*---
+ * Second Button
+ --- */
+ .enter {
+    opacity: 0;
+    opacity: 0;
+    margin-top: 250px -1px;
+   display:flex;
+   justify-content: center;
+
+ }

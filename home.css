@@ -3,21 +3,24 @@ body {
 }
 
 nav {
-    background-color:bisque;
+    background-color:#ffe4c4;
     display: flex;
     justify-content: flex-end;
     gap: 20px;
-    padding: 15px 0;
-    font-size: large;
+    padding: 15px;
+    font-size: x-large;
+    
+    
 }
 
 
 a:link {
-    color: orangered
+    color: orangered;
+    text-decoration: none;
 }
 
 a:visited {
-    color: brown
+    color: brown;
 }
 
 @media only screen and (max-width: 600px) {
@@ -27,9 +30,17 @@ a:visited {
     }
 }
 
+.video {
+    padding-bottom: none;
+    margin-bottom: none;
+   
+}
+
 .fact {
     background-color: bisque;
     text-align: center;
+    margin-top: none;
+    padding-top: auto;
 }
 
 p {
@@ -37,3 +48,4 @@ p {
     text-decoration: underline;
     font-size:xx-large;
 }
+
