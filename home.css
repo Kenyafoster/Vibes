@@ -1,51 +1,139 @@
 body {
-    background-color: #FFF6EA;
+    background-color: #fff6ea;
+      
 }
 
+
 nav {
-    background-color:#ffe4c4;
     display: flex;
+    flex-direction: row;
     justify-content: flex-end;
+    position: absolute;
+    top: 8px;
+    right: 16px;
+    font-size: 18px;
     gap: 20px;
-    padding: 15px;
-    font-size: x-large;
-    
-    
+    font-size: large;
+    background: transparent;
 }
 
 
 a:link {
-    color: orangered;
+    color: #814432;
     text-decoration: none;
 }
 
 a:visited {
-    color: brown;
+    color: #814432;
 }
 
 @media only screen and (max-width: 600px) {
     nav {
-        justify-content: space-around;
-        position:relative;
+        justify-content: space-between;
+        position:fixed;
+        width: 78%;
     }
 }
 
-.video {
-    padding-bottom: none;
-    margin-bottom: none;
-   
+.scroll {
+    color:#814432;
+    font-size: xx-large;
 }
 
-.fact {
-    background-color: bisque;
+.purpose {
+    background-color: #fff6ea;
+}
+
+
+h1 {
+    color:#814432;
     text-align: center;
-    margin-top: none;
-    padding-top: auto;
 }
 
-p {
-    color: brown; 
-    text-decoration: underline;
-    font-size:xx-large;
+.purposep {
+    color:#814432;
+    text-align:center;
+    font-size: large;
+}
+
+
+
+
+.box3 {
+    display: flex;
+    flex-direction: row;
+    flex-basis: auto;
+    justify-content: space-around;
+    gap: 20px;
+    align-items: center;
+ 
+    
+    background-color: #fff6ea;
+}
+
+@media only screen and (max-width: 600px) {
+     .box3 {
+        display: flex;
+        flex-direction:column;
+        flex-basis: auto;
+        width:100%;
+    }
+}
+
+.shadow {
+    width: 250px;
+    height: 250px;
+    top: 50%;
+    left: 50%;
+    
+    box-shadow: 10px 10px 54px -6px rgba(0,0,0,0.75);
+}
+
+
+
+
+.box2 {
+    display: flex;
+    flex-direction: row;
+    flex-basis: auto;
+    justify-content: space-around;
+    align-items: center;
+    
+    background-color: #fff6ea;
+}
+
+
+.box1 {
+    display: flex;
+    flex-direction: row;
+    flex-basis: auto;
+    justify-content: space-between;
+    align-items: center;
+    background-color:#006636;
+   padding-top: 70px;
+   padding-bottom: 70px;
+}
+
+.box4 {
+    display: flex;
+    flex-direction: row;
+    flex-basis: auto;
+    justify-content: space-around;
+    gap: 20px;
+    align-items: center;
+    
+    background-color:#fff6ea;
+}
+
+
+
+.box {
+    display: flex;
+    flex-direction: row;
+    flex-basis: auto;
+    justify-content: space-between;
+    align-items: center;
+    background-color:#fff6ea;
+   
 }
 

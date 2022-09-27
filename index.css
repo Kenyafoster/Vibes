@@ -28,7 +28,11 @@ body {
    display:flex;
    justify-content: center;
  }
-
+ @media only screen and (max-width: 600px) {
+    .affirmation {
+        margin-top: 350px;
+    }
+}
  /*---
  * Second Button
  --- */
@@ -40,3 +44,5 @@ body {
    justify-content: center;
 
  }
+
+
