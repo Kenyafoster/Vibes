@@ -1,16 +1,51 @@
-body {
-    background-color: #FFF6EA;
+body , html{
+    height: 100%;
+    margin: 0;
 }
+
+
+
+.bg {
+    background-color: #FFF6EA;
+    background-image: url("https://res.cloudinary.com/dq7abmqts/image/upload/v1664314235/yogabg_ev2orq.png");
+
+        
+      
+        /* Full height */
+        height: 100%; 
+      
+        /* Center and scale the image nicely */
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+      }
+
 
 /*---
  * first button
  --- */
 .container {
-    text-align: center;
-    margin-top: 350px;
+    position:absolute;
+    top: 50%;
+    left:50%;
+    transform: translate(-50%, -50%);
 }
+
+@media only screen and (max-width: 600px) {
+    .container{
+        position:absolute;
+    top: 50%;
+    left:50%;
+    transform: translate(-50%, -50%);
+        
+    }
+}
+
+
 .button {
-    color: orangered;
+    color: #572728;
+    background-color: #FFF6EA;
+    font-size: larger;
     text-align: center;
     text-decoration: none;
 }
@@ -18,31 +53,54 @@ body {
     color: #a52a2a;
  }
 
+ .enter {
+    color:#FFF6EA;
+    background-color: #572728;
+    font-size: xx-large;
+ }
+
  /*---
  * Affirmation photo
  --- */
 
  .affirmation {
+    position:absolute;
+    top: 50%;
+    left:50%;
+    transform: translate(-50%, -50%);
     opacity: 0;
-    margin-top: 250px -1px;
-   display:flex;
-   justify-content: center;
  }
  @media only screen and (max-width: 600px) {
     .affirmation {
-        margin-top: 350px;
+        position:absolute;
+    top: 50%;
+    left:50%;
+    transform: translate(-50%, -50%);
+    opacity: 0;
     }
 }
  /*---
  * Second Button
  --- */
  .enter {
-    opacity: 0;
-    opacity: 0;
-    margin-top: 250px -1px;
-   display:flex;
-   justify-content: center;
+position:absolute;
+opacity: 0;
+   top:90%;
+   left:50%;
+transform: translate(-50%, -50%);
 
  }
 
+
+
+@media only screen and (max-width: 600px) {
+    .enter{
+        position:absolute;
+        opacity: 0;
+           top:85%;
+           left:50%;
+        transform: translate(-50%, -50%);
+        
+    }
+}
 

@@ -3,9 +3,16 @@ body {
     margin: 0; 
     padding: 0;
     font-family: sans-serif;
-
-    ;
 }
+
+@media only screen and (max-width: 500px) {
+    body {
+        margin: auto; 
+    
+    }
+}
+
+
 
 
 
@@ -37,7 +44,17 @@ a:visited {
 
 @media only screen and (max-width: 600px) {
     nav {
-        justify-content: space-between;
+        justify-content: center;
+        position:fixed;
+        width: 100%;
+        background-color: #572728;
+        padding-top: 10px;
+    }
+}
+
+@media only screen and (max-width: 900px) {
+    nav {
+        justify-content: center;
         position:fixed;
         width: 100%;
         background-color: #572728;
@@ -46,10 +63,10 @@ a:visited {
 }
 
 
-
 .vibe {
     margin: 0; 
     padding: 0;
+
 }
 
 .purpose {
@@ -57,35 +74,127 @@ a:visited {
     height: 500px;
 }
 
+@media only screen and (max-width: 600px) {
+    .purpose {
+        display: block;
+            flex-direction: row;
+            justify-content: center;
+        width: 50%;
+        background-color: #572728;
+        padding-top: 10px;
+    }
+}
+
+
+
+
 h1 {
 color:#fff6ea;
- padding-top: 100px;
- padding-left:80px;
- margin-bottom: 100px;
+display: block;
+flex-direction: column;
  font-size: 50px;
+ padding-left: 30px;
+}
+
+@media only screen and (max-width: 600px) {
+    h1{
+        color:#fff6ea;
+        display: block;
+        flex-direction: column;
+        font-size: 30px;
+    }
+}
+
+h3 {
+    color:#fff6ea;
 }
 
 p {
   
     padding-top: 150px;
     padding-right:60px;
+    padding-left: 30px;
+    padding-right:30px;
     color:#fff6ea;
-    font-size: 15px;
+    font-size: 20px;
 }
+
+
+
+
+
+
+@media only screen and (max-width: 600px) {
+    p {
+        color:#fff6ea;
+        display: block;
+        flex-direction: column;
+        font-size: 15px;
+        padding-top: 0;
+    }
+}
+
+@media only screen and (max-width: 1077px) {
+    p {
+        color:#fff6ea;
+        display: block;
+        flex-direction: column;
+        font-size: 15px;
+        padding-top: 0;
+    }
+}
+
+@media only screen and (max-width: 1230px) {
+    .first {
+        color:#fff6ea;
+        display: block;
+        flex-direction: column;
+        font-size: 15px;
+        padding-top: 10;
+    }
+}
+
+
 
 .box {
     display: flex;
     flex-direction: row;
-    flex-basis: auto;
-    justify-content: space-between;
-    align-items: center;
+    justify-content: center;  
     background-color:#fff6ea;
     padding-top: 30px;
+    padding-left: 0%;
     height: 400px;
    
 }
 
-.box4 {
+@media only screen and (max-width: 600px) {
+    .box {
+        color:#fff6ea;
+        display: block;
+        flex-direction: row;
+        font-size: 10px;
+        height: 100%;
+        margin:auto
+    }
+}
+
+@media only screen and (max-width: 1077px) {
+    .box {
+        color:#fff6ea;
+        display: block;
+        flex-direction: column;
+        align-items: center;
+        font-size: 10px;
+        height: 100%;
+        margin:auto
+    }
+}
+
+
+
+
+
+.box2 {
     display: flex;
     flex-direction: row;
     flex-basis: auto;
@@ -93,7 +202,10 @@ p {
     gap: 20px;
     align-items: center;
     padding-top: 90px;
+    padding-bottom: 50px;
 }
+
+
 
 .shadow {
     width: 250px;
@@ -103,6 +215,90 @@ p {
     box-shadow: 10px 10px 54px -6px rgba(0,0,0,0.75);
 }
 
+
+@media only screen and (max-width: 600px) {
+    .shadow {
+        color:#fff6ea;
+        
+        display: block;
+        
+        font-size: 10px;
+    }
+}
+
+
+
+
+
+
+h2 {
+    padding-left: 30px;
+    padding-right: 30px;
+    font-size: xx-large;
+}
+
+
+
 h2,li {
     color: #fff6ea;
 }
+
+@media only screen and (max-width: 800px) {
+    li {
+        color:#fff6ea;
+        font-size: 15px;
+    }
+}
+
+@media only screen and (min-width: 200px) {
+    li {
+        color:#fff6ea;
+        font-size: 12px;
+    }
+}
+
+@media only screen and (min-width: 200px) {
+    li {
+        color:#fff6ea;
+        font-size: 12px;
+    }
+}
+
+
+
+.music {
+    
+    background-image: url("https://res.cloudinary.com/dq7abmqts/image/upload/v1664325584/yogabg_2_n67fsg.png");
+    background-attachment: fixed;
+    height: 400px;
+    width: 100%;
+    background-repeat: no-repeat;
+        background-size: cover;
+       
+      }
+
+    
+
+.blog{
+    
+        background-image: url("https://res.cloudinary.com/dq7abmqts/image/upload/v1664326011/yogabg_3_idvewf.png");
+        background-attachment: fixed;
+        height: 400px;
+        width: 100%;
+        background-repeat: no-repeat;
+            background-size: cover;
+          }
+
+         
+  .food {
+    background-image: url("https://res.cloudinary.com/dq7abmqts/image/upload/v1664327324/yogabg_4_nf15px.png");
+    background-attachment: fixed;
+    height: 400px;
+    width: 100%;
+    background-repeat: no-repeat;
+     background-size: cover;
+  }        
+
+
+ 
+

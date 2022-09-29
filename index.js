@@ -7,7 +7,7 @@ console.log(affirmation)
 const enter = document.querySelector('.enter')
 console.log(enter)
 
-button.addEventListener('click' , function () {
+button,affirmation.addEventListener('click' , function () {
     button.style.opacity = 0
     affirmation.style.opacity = 1
     enter.style.opacity = 1
@@ -15,3 +15,6 @@ button.addEventListener('click' , function () {
 }
 
 )
+
+
+
